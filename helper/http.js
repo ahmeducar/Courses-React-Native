@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = 'https://githubiçin.firebaseio.com/';
+const url = 'https://abcd.abcd/';
 
 export async function storeCourse(courseData) {
   const response = await axios.post(url + '/courses.json', courseData);
